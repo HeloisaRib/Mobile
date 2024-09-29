@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">ExpertCerveja</string>
+    <string name="encontrar_cervejas">Encontrar cervejas</string>
+    <string name="escolha_um_tipo_de_cerveja">Escolha um tipo de cerveja:</string>
+    <string-array name="tipo_de_cerveja">
+        <item>Lager</item>
+        <item>Pilsen</item>
+        <item>Bock</item>
+        <item>Witbier</item>
+        <item>Weissbier</item>
+        <item>IPA</item>
+        <item>Stout</item>
+    </string-array>
+    <string-array name="cervejas_lager">
+        <item>Heineken</item>
+        <item>Budweiser</item>
+        <item>Stella Artois</item>
+        <item>Skol</item>
+        <item>Brahma</item>
+    </string-array>
+    <string-array name="cervejas_pilsen">
+        <item>Pilsner Urquell</item>
+        <item>Estrella Galicia</item>
+        <item>Skol Pilsen</item>
+        <item>Amstel</item>
+        <item>Serramalte</item>
+    </string-array>
+    <string-array name="cervejas_bock">
+        <item>Erdinger Pikantus</item>
+        <item>La Trappe Bockbier</item>
+        <item>Shiner Bock</item>
+        <item>Brahma Extra Bock</item>
+        <item>Baden Baden Bock</item>
+    </string-array>
+    <string-array name="cervejas_witbier">
+        <item>Hoegaarden</item>
+        <item>Blanche de Bruxelles</item>
+        <item>Vedett Extra White</item>
+        <item>St. Bernardus Wit</item>
+        <item>Colorado Appia</item>
+    </string-array>
+    <string-array name="cervejas_weissbier">
+        <item>Weihenstephaner Hefeweissbier</item>
+        <item>Franziskaner Hefe-Weissbier</item>
+        <item>Hoegaarden</item>
+        <item>Schöfferhofer Hefeweizen</item>
+        <item>Maisels Weisse</item>
+    </string-array>
+    <string-array name="cervejas_ipa">
+        <item>BrewDog Punk IPA</item>
+        <item>Lagunitas IPA</item>
+        <item>Goose Island IPA</item>
+        <item>Baden Baden IPA</item>
+        <item>Colorado Indica</item>
+    </string-array>
+    <string-array name="cervejas_stout">
+        <item>Guinness</item>
+        <item>Founders Breakfast Stout</item>
+        <item>Baden Baden Stout</item>
+        <item>Brooklyn Black Chocolate Stout</item>
+        <item>Kona Pipeline Porter</item>
+    </string-array>
+</resources>

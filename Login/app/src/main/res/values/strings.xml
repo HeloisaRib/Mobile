@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="Senha">Senha</string>
+    <string name="nome_de_usuario">Nome de usuario</string>
+    <string name="entrar">Entrar</string>
+    <string name="login">Login</string>
+    <string name="bem_vindo">Bem vindo,</string>
+    <string name="dados_inv_lidos_tente_novamente">Dados inválidos! Tente novamente.</string>
+    <string-array name="usuarios">
+        <item>admin</item>
+        <item>Admin</item>
+        <item>helo</item>
+        <item>Helo</item>
+        <item>bruno</item>
+        <item>Bruno</item>
+        <item>felipe</item>
+        <item>Felipe</item>
+    </string-array>
+    <string-array name="senhas">
+        <item>1234</item>
+        <item>admin</item>
+        <item>4321</item>
+        <item>12345687</item>
+    </string-array>
+</resources>
