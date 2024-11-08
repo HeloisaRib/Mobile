@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:id="@+id/bandeira_goias"
+            android:layout_width="84dp"
+            android:layout_height="54dp"
+            android:layout_gravity="start"
+            app:srcCompat="@drawable/bandeira" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/nota_fiscal_goiana"
+            android:textSize="20sp"
+            android:layout_marginStart="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/CPF_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/cpf"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/inputCPF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:hint="@string/_000_000_000_00"
+            android:layout_marginStart="10sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_banco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="10sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/banco_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/banco"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/spinner_bancos"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/escolha_seu_banco"
+            android:entries="@array/bancos" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_contas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="10sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/conta_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tipo_de_conta"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/spinner_tipos_de_conta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/tipos_de_conta" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/agencia_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/input_agencia"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="10sp"
+            android:hint="@string/ag_ncia" />
+
+        <EditText
+            android:id="@+id/input_digito_agencia"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="30sp"
+            android:hint="@string/d_gito" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/conta_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/conta_agencia"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="10sp"
+            android:hint="@string/conta" />
+
+        <EditText
+            android:id="@+id/input_digito_conta"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="30sp"
+            android:hint="@string/d_gito" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_valor_calculado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/valor_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/valor"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/input_valor_calculado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="valor"
+            android:textSize="18sp"
+            android:layout_marginStart="10sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saque_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:text="SOLICITAR SAQUE" />
+
+
+</LinearLayout>

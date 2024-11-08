@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/logoTRE"
+        android:layout_width="147dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        app:srcCompat="@drawable/logo_tre" />
+
+    <EditText
+        android:id="@+id/inputNome"
+        android:layout_width="316dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:hint="@string/nome_completo"/>
+
+    <EditText
+        android:id="@+id/inputTitulo"
+        android:layout_width="316dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:hint="@string/t_tulo_de_eleitor"/>
+
+    <LinearLayout
+        android:id="@+id/local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/light_gray"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:id="@+id/inputZona"
+            android:layout_width="148dp"
+            android:layout_height="54dp"
+            android:layout_gravity="left"
+            android:layout_marginEnd="10dp"
+            android:hint="@string/zona" />
+
+        <EditText
+            android:id="@+id/inputSecao"
+            android:layout_width="148dp"
+            android:layout_height="54dp"
+            android:layout_gravity="right"
+            android:layout_marginStart="10dp"
+            android:hint="@string/se_o" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cidadeEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/light_gray"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:id="@+id/inputCidade"
+            android:layout_width="182dp"
+            android:layout_height="54dp"
+            android:layout_gravity="left"
+            android:layout_marginEnd="10dp"
+            android:hint="@string/cidade" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_gravity="right"
+            android:layout_marginStart="10dp"
+            android:entries="@array/estados"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="@string/continuar"/>
+</LinearLayout>

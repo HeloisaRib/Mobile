@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "722297059926",
+    "project_id": "testando-firebase-e757e",
+    "storage_bucket": "testando-firebase-e757e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722297059926:android:7b03ef4737215a635c59f7",
+        "android_client_info": {
+          "package_name": "com.android.testefirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx68dU5TRUGVx5yTBEyWxqzeFYA6rSXzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

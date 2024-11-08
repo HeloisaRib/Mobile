@@ -66,8 +66,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClickReset() {
-        isRunning = false
-        seconds = 0
+        isRunning   = false
+        seconds     = 0
         runTimer()
         handler.removeCallbacks(runnable)
     }

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="nome_completo">Nome completo</string>
+    <string name="t_tulo_de_eleitor">Título de eleitor</string>
+    <string name="zona">Zona</string>
+    <string name="se_o">Seção</string>
+    <string name="cidade">Cidade</string>
+    <string name="continuar">Continuar</string>
+    <string-array name="estados">
+        <item>AM</item>
+    </string-array>
+</resources>

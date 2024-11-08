@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Prova</string>
+    <string name="nota_fiscal_goiana">Nota Fiscal Goiana</string>
+    <string name="cpf">CPF:</string>
+    <string name="_000_000_000_00">000.000.000-00</string>
+    <string name="r_0000_00">R$0000,00</string>
+    <string name="cr_ditos_n_o_liberados">Créditos não liberados</string>
+    <string name="valor_dispon_vel_para_saque">Valor disponível para saque</string>
+    <string name="selecione_um_per_odo">Selecione um período</string>
+    <string name="escolha_seu_banco">Escolha seu banco..</string>
+    <string name="escolha_o_tipo_de_conta">Escolha o tipo de conta..</string>
+    <string name="tipo_de_conta">Tipo de conta:</string>
+    <string name="banco">Banco:</string>
+    <string name="ag_ncia">Agência</string>
+    <string name="d_gito">Dígito</string>
+    <string name="conta">Conta</string>
+    <string name="valor">Valor:</string>
+    <string-array name="bancos">
+        <item>Escolha seu banco..</item>
+    </string-array>
+    <string-array name="tipos_de_conta">
+        <item>Escolha o tipo da sua conta..</item>
+    </string-array>
+</resources>

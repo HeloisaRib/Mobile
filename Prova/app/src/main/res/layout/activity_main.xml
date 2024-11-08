@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:id="@+id/bandeira_goias"
+            android:layout_width="84dp"
+            android:layout_height="54dp"
+            android:layout_gravity="start"
+            app:srcCompat="@drawable/bandeira" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/nota_fiscal_goiana"
+            android:textSize="20sp"
+            android:layout_marginStart="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/CPF_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/cpf"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/inputCPF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:hint="@string/_000_000_000_00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_valores_e_creditos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/layout_valor_saque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/valores_para_saque_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/valor_dispon_vel_para_saque"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/input_valor_para_saque"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/r_0000_00" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_valor_credito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="vertical"
+            android:layout_margin="10sp">
+
+            <TextView
+                android:id="@+id/creditos_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/cr_ditos_n_o_liberados"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/input_creditos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/r_0000_00" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/selecione_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/selecione_um_per_odo"
+        android:textSize="17sp"
+        android:layout_marginBottom="20sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
